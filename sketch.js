@@ -17,18 +17,18 @@ function setup() {
   rectMode(CENTER);
   ellipseMode(CENTER);
 
-  block1 = new Box(280, 180);
-  block2 = new Box(300, 180);
-  block3 = new Box(320, 180);
-  block4 = new Box(290, 160);
-  block5 = new Box(310, 160);
-  block6 = new Box(300, 140);
-  block7 = new Box(580, 80);
-  block8 = new Box(600, 80);
-  block9 = new Box(620, 80);
-  block10 = new Box(590, 60);
-  block11 = new Box(610, 60);
-  block12 = new Box(600, 40);
+  block1 = new Box(280, 170);
+  block2 = new Box(300, 170);
+  block3 = new Box(320, 170);
+  block4 = new Box(290, 150);
+  block5 = new Box(310, 150);
+  block6 = new Box(300, 130);
+  block7 = new Box(580, 70);
+  block8 = new Box(600, 70);
+  block9 = new Box(620, 70);
+  block10 = new Box(590, 50);
+  block11 = new Box(610, 50);
+  block12 = new Box(600, 30);
 
   polygon = new Polygon(100, 100);
 
