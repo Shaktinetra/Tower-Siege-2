@@ -3,7 +3,6 @@ class Ground {
       var options = {
           isStatic: true
       }
-      rectMode(CENTER);
       this.body = Bodies.rectangle(x,y,width,height,options);
       this.width = width;
       this.height = height;
