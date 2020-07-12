@@ -34,8 +34,8 @@ function setup() {
 
   slingshot = new SlingShot(polygon.body, {x: 100, y: 100})
 
-  stand1 = new Ground(300, 200, 100, 20, 'white');
-  stand2 = new Ground(600, 100, 100, 20, 'white');
+  stand1 = new Ground(300, 200, 100, 10, 'white');
+  stand2 = new Ground(600, 100, 100, 10, 'white');
   ground = new Ground(400, height, width, 10, 'black');
 }
 
