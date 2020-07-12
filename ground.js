@@ -1,10 +1,9 @@
 class Ground {
-    constructor(x,y,width,height, color) {
+    constructor(x, y, width, height, color) {
       var options = {
           isStatic: true
       }
-      rectMode(CENTER);
-      this.body = Bodies.rectangle(x,y,width,height,options);
+      this.body = Bodies.rectangle(x, y, width, 20, options);
       this.width = width;
       this.height = height;
       this.color = color;
@@ -18,4 +17,5 @@ class Ground {
       rect(pos.x, pos.y, this.width, this.height);
       noFill();
     }
+    
   };
