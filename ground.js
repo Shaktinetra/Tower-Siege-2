@@ -3,7 +3,7 @@ class Ground {
       var options = {
           isStatic: true
       }
-      this.body = Bodies.rectangle(x, y, width, 20, options);
+      this.body = Bodies.rectangle(x, y, width, 30, options);
       this.width = width;
       this.height = height;
       this.color = color;
