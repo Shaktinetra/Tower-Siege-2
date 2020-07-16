@@ -14,7 +14,7 @@ class Polygon {
 
     display(){
         imageMode(CENTER);
-        image(this.image, this.body.position.x, this.body.position.y, 40, 40);
+        image(this.image, this.body.position.x, this.body.position.y, 20, 20);
         noFill();
     }
         }
