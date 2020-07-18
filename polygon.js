@@ -5,7 +5,7 @@ class Polygon {
             density: 1.5
         }
 
-        this.body = Bodies.circle(x, y, 20, options);
+        this.body = Bodies.circle(x, y, 10, options);
         World.add(world, this.body);
 
         this.image = loadImage("pentagon.png");
