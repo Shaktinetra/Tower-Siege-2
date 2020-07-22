@@ -2,7 +2,8 @@ class Polygon {
     constructor(x, y) {
         var options= {
             restitution: 0.4,
-            density: 1.5
+            density: 1.5,
+            isStatic: false
         }
 
         this.body = Bodies.circle(x, y, 20, options);
