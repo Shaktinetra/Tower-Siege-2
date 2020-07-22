@@ -6,7 +6,7 @@ class Polygon {
             isStatic: false
         }
 
-        this.body = Bodies.circle(x, y, 20, options);
+        this.body = Bodies.circle(x, y, 10, options);
         World.add(world, this.body);
 
         this.image = loadImage("pentagon.png");
@@ -14,7 +14,7 @@ class Polygon {
 
     display(){
         imageMode(CENTER);
-        image(this.image, this.body.position.x, this.body.position.y, 10, 10);
+        image(this.image, this.body.position.x, this.body.position.y, 20, 20);
         noFill();
     }
         }
