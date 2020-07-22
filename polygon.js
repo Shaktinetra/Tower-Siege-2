@@ -5,7 +5,7 @@ class Polygon {
             density: 1.5
         }
 
-        this.body = Bodies.circle(x, y, 10, options);
+        this.body = Bodies.circle(x, y, 20, options);
         this.x = x;
         this.y = y;
         World.add(world, this.body);
@@ -15,7 +15,7 @@ class Polygon {
 
     display(){
         imageMode(CENTER);
-        image(this.image, this.x, this.y, 20, 20);
+        image(this.image, this.x, this.y, 10, 10);
         noFill();
     }
         }
